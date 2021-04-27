@@ -1,10 +1,9 @@
 {
-  "name": "react-native-iap",
+  "name": "@pandarose/react-native-iap",
   "version": "6.0.3",
   "description": "React Native In App Purchase Module.",
   "main": "index.js",
   "types": "index.d.ts",
-  "postinstall": "dooboolab-welcome postinstall",
   "scripts": {
     "build": "tsc && flowgen index.d.ts -o index.js.flow",
     "flow": "flow",
@@ -26,15 +25,13 @@
     "in-app-purchase",
     "billing"
   ],
-  "author": "dooboolab",
+  "author": "pandarose",
   "license": "MIT",
   "peerDependencies": {
     "react": ">=16.13.1",
     "react-native": ">=0.54"
   },
-  "dependencies": {
-    "dooboolab-welcome": "^1.2.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@dooboo/eslint-config": "^0.6.23",
     "@types/eslint": "^7.2.8",
